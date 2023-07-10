@@ -14,12 +14,15 @@
 }
 .common-description {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 14px;
+  font-size: 12px;
   line-height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
-
+.red-text {
+  color: red;
+}
 /* Banner section */
 .banner-container {
   background-color: rgba(229, 84, 115, 0.1);
@@ -90,7 +93,7 @@
 }
 /* services section */
 .servics-section-container {
-  width: 70%;
+  width: 68%;
   height: 150px;
   background-color: rgba(39, 39, 39, 0.05);
   margin: auto;
@@ -107,4 +110,41 @@
 }
 .service-box > img {
   width: 50px;
+}
+
+/* Hot Deals Section */
+.hot-deals-container {
+  width: 68%;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hot-deals-flower > img {
+  width: 200px;
+}
+.hot-deals-text {
+  width: 40%;
+  font-weight: bold;
+}
+
+/* instagram section  */
+.instagram-section {
+  margin-top: 100px;
+}
+.instagram-title {
+  text-align: center;
+}
+.instagram-img-resize {
+  width: 200px;
+}
+.instagram-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 68%;
+    margin: auto;
+
 }
