@@ -1,4 +1,4 @@
-/* common  */
+/* common css  */
 * {
   margin: 0px;
   padding: 0px;
@@ -30,7 +30,8 @@
 .common-margin-top {
   margin-top: 100px;
 }
-/* Banner section */
+
+/* Banner section css */
 .banner-container {
   background-color: rgba(229, 84, 115, 0.1);
   height: 100vh;
@@ -56,7 +57,7 @@
   margin-top: 84px;
 }
 
-/* Feature flower section */
+/* Feature flower section css */
 .featured-flowers-text {
   text-align: center;
   margin-top: 100px;
@@ -67,7 +68,6 @@
 .featured-flowers-container {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 10px;
 }
 .featured-flowers-boxes {
@@ -94,7 +94,7 @@
   margin-top: 70px;
 }
 
-/* services section */
+/* services section css */
 .servics-section-container {
   width: 68%;
   height: 150px;
@@ -115,7 +115,7 @@
   width: 50px;
 }
 
-/* Hot Deals Section */
+/* Hot Deals Section css */
 .hot-deals-container {
   width: 100%;
   height: 400px;
@@ -138,7 +138,7 @@
   text-align: center;
 }
 
-/* instagram section  */
+/* instagram section css  */
 
 .instagram-img-resize {
   width: 200px;
@@ -149,7 +149,7 @@
   width: 68%;
   margin: auto;
 }
-/* latest deal */
+/* latest deal section css */
 
 .latest-deal-container {
   background-image: url("../images/Rectangle9.png");
@@ -170,7 +170,7 @@ input[type="email"] {
   border: none;
 }
 
-/* footer  */
+/* footer css */
 
 .footer-container {
   background-color: #111010;
@@ -195,7 +195,7 @@ input[type="email"] {
   margin-top: 10px;
 }
 
-/* feedback */
+/* feedback section css */
 
 .customer-feedback-container {
   width: 60%;
